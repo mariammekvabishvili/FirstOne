@@ -1,0 +1,64 @@
+body {
+    background-image: url(./background2.jpg)
+}
+h1 {
+    color:white;
+    font-size: 45px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 70px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    height: 100px; 
+}
+.message {
+    background-color: rgba(173, 137, 143, 0.952);
+    padding: 15px;
+    border: 2px solid rgb(214, 111, 214);
+    border-width: 5px;
+    border-radius: 24px;
+    width: fit-content;
+    height: min-content;
+    margin:auto;
+    margin-bottom: 66px;
+    margin-top: -17px;
+}
+.message p {
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin: auto;
+}
+#mesbox {
+    background-color: rgba(99, 9, 99, 0.945);
+    padding: 15px;
+    border: 2px solid rgb(214, 111, 214);
+    border-width: 5px;
+    border-radius: 20px;
+    width: 500px;
+    height: 60px;
+    margin: auto;
+    margin-left: 400px;
+    margin-top: 3px;
+}
+#button {
+    margin: auto;
+    background-color: rgba(139, 66, 77, 0.938);
+    width: 155px;
+    height: 40px;
+    border-width: 5px;
+    border-color:rgb(214, 111, 214);
+    border-radius: 25px;
+    margin-left: 593px;;
+    margin-top: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+input[type=text] {
+    color:rgb(218, 201, 204);
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 19px;
+}
