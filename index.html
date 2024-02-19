@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Something Cute From M.M</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content=""width=device-width, initial-scale="1.0">
+        <link href="./Styless.css" rel="stylesheet"></link>
+    </head>
+    <body>
+        <div>
+            <main>
+                <h1>Sweet Message Generator</h1>
+                <div class="message">
+                    <p>I made Sweet Message Generator for my Loved Ones!</p>
+                    <p>In order to make them feel loved and give them the loyalty</p>
+                    <p>THEY DESERVE!</p>
+                </div>
+                <div id="generatedmessage"></div>
+                <script>
+                    var numofmessages=10
+                    var messages= new buildarray(numofmessages)
+                    messages[1]="There is no one else who can replace you"
+                    messages[2]="Love you so much"
+                    messages[4]="My friend, you hold a special place in my heart"
+                    messages[5]="I’m so lucky to have you in my life"
+                    messages[6]="When you need a hug, I’m here for you"
+                    messages[7]="You make every moment I spend with you memorable"
+                    messages[8]="Thank you for all the good times we had together"
+                    messages[9]="I need you like a heart need a beat"
+                    messages[10]="Thank you for adding colors into my life"
+                    function buildarray(size) {
+                        this.lenght = size
+                        for (var i=0; i<size; i++) {
+                            this[i]=null
+                        }
+                        return this
+                    }
+                    function pickrandmes(rslt) {
+                        var rnd= Math.ceil(Math.random() * numofmessages)
+                        rslt.messagebox.value=messages[rnd]
+                    }
+                </script>
+                <form name="messageform">
+                <input type=text name="messagebox" id="mesbox">
+                <br>
+                <input type=button value="Generate Message" onclick="pickrandmes(document.messageform);" id="button">
+                </form>
+            </main>
+        </div>
+    </body>
+</html>
